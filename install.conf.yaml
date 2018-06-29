@@ -14,5 +14,12 @@
     ~/.config/awesome:
         path: config/awesome/
         create: true
+    ~/.vim: vim
+    ~/.vimrc: vimrc
+    ~/.zsh: zsh
+    ~/.zshrc: zshrc
+    ~/.config/Code:
+        path: config/Code/
+        create:true
 
 
