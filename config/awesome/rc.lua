@@ -237,7 +237,7 @@ root.buttons(gears.table.join(
 globalkeys = gears.table.join(
     -- Custom Keybinds
     awful.key({ modkey }, "F2", function () awful.util.spawn("rofi -show drun") end),
-    
+    awful.key({ modkey }, "e", function () awful.util.spawn("urxvt -e ranger .") end),
     
     -- End Custom Keybinds
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
