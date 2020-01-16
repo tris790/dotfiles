@@ -1,4 +1,6 @@
 TFILES
+## Setup
+`` git clone https://github.com/tris790/dotfiles.git && cd dotfiles && ./install ``
 
 ## Shell
 - Zsh
